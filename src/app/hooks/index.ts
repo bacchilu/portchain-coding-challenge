@@ -1,9 +1,9 @@
 import React from 'react';
 
-import {FetchManager} from './model';
-import {Schedule, Vessel} from './types';
+import {FetchManager} from '../model';
+import {Schedule, Vessel} from '../types';
 
-const useSchedules = function (vessels: Vessel[] | undefined) {
+export const useSchedules = function (vessels: Vessel[] | undefined) {
     const [schedules, setSchedules] = React.useState<Schedule[] | undefined>(undefined);
     const [error, setError] = React.useState<string | null>(null);
     const [info, setInfo] = React.useState('');
@@ -28,7 +28,7 @@ const useSchedules = function (vessels: Vessel[] | undefined) {
     return {data: schedules, info, error};
 };
 
-const useVessels = function () {
+export const useVessels = function () {
     const [vessels, setVessels] = React.useState<Vessel[] | undefined>(undefined);
     const [error, setError] = React.useState<string | null>(null);
 
