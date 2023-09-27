@@ -1,10 +1,10 @@
 import {renderHook, waitFor} from '@testing-library/react';
 import {vi} from 'vitest';
 
-import {useSchedules, useVessels} from '.';
 import {mockSchedules} from '../components/statistics_table/schedules_mock';
 import {FetchManager} from '../model';
 import {Vessel} from '../types';
+import {useSchedules, useVessels} from './hooks';
 
 const mockVessels = [{imo: 9303807, name: 'ABIDJAN EXPRESS'} as Vessel, {imo: 9314935, name: 'AS CAROLINA'} as Vessel];
 
