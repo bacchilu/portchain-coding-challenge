@@ -20,10 +20,6 @@ vi.mock('../model', () => ({
 }));
 
 describe('useVessels', () => {
-    afterEach(() => {
-        vi.clearAllMocks();
-    });
-
     test('Initial rendering', async () => {
         const {result} = renderHook(useVessels);
 
@@ -56,10 +52,6 @@ describe('useVessels', () => {
 });
 
 describe('useSchedules', () => {
-    afterEach(() => {
-        vi.clearAllMocks();
-    });
-
     test('Fetches schedules and sets data correctly', async () => {
         const {result} = renderHook(() => useSchedules(mockVessels));
 

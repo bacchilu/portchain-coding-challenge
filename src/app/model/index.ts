@@ -58,8 +58,8 @@ export const FetchManager = (function () {
 
     const getSchedulesList = async function (vessels: Vessel[], progressCb: (v: Vessel) => void) {
         const getSchedules = async function (vessel: Vessel) {
-            const res = await Model.getSchedules(vessel.imo);
             progressCb(vessel);
+            const res = await Model.getSchedules(vessel.imo);
             return res;
         };
 
