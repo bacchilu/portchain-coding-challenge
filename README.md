@@ -2,7 +2,11 @@
 
 ## Introduction
 
-This project is a React Single Page Application (SPA) designed as a client-only solution for the Portchain Coding Challenge. It provides [a live demo](https://bacchilu.github.io/portchain-coding-challenge/) that you can explore.
+This is the *Portchain Coding Challenge*! I was required to develop a simple project to fetch data from an external API, evaluate some statistics, and render the results.
+
+### Execution
+
+I developed a React Single Page Application (SPA) designed as a client-only solution. [A live demo](https://bacchilu.github.io/portchain-coding-challenge/) that you can explore is available.
 
 ## Getting Started
 
