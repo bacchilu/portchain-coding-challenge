@@ -41,7 +41,7 @@ This will create an optimized production build of the application.
 
 ISC License
 
-Copyright (c) <year>, <copyright holder>
+Copyright (c) 2023, Luca Bacchi
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 
